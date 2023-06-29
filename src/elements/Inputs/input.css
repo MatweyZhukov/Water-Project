@@ -1,0 +1,23 @@
+.block-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.block-input input {
+  border: none;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.block-input input:focus {
+  border-radius: none;
+  outline: 3px solid rgb(0, 0, 0, 0.5);
+}
+
+.block-input img {
+  cursor: pointer;
+  height: 100%;
+  width: auto;
+}

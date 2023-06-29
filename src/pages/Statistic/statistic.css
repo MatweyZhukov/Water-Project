@@ -1,0 +1,27 @@
+main {
+  padding: 0 100px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statistic p {
+  line-height: 100px;
+  text-align: left;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0 auto;
+  color: black;
+  font-weight: 500;
+}
